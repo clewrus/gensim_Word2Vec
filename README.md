@@ -15,6 +15,9 @@
     ```
 3. Завантажити датасет #TODO
 
+## Результат
+1. ```python find_close.py "model_name" "word_to_test"```
+
 ## Використання
 1. 
     ```sh
