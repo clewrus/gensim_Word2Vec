@@ -13,13 +13,12 @@
     ```sh
     pip install -r requirements.txt
     ```
-3. Завантажити датасет #TODO
-
-## Результат
-1. ```python find_close.py "model_name" "word_to_test"```
+3. Створити папку **dataset** на одному рівні з кореневою папкою проекту та завнатжити в неї текстовий файл з датасетом. Датаcети можна завантажити с сайту за [посиланням](https://lang.org.ua/uk/corpora/).
 
 ## Використання
-1. 
+1. Виконати код файлу **create_embeddings.ipynb**. В результаті буде створено модель та записано її до файлу **500mb_wiki.model**.
+
+2. Виконати файлу **find_close.py** передавши до аргументів назву файлу з моделлю та ключове слово.
     ```sh
-    jupyter notebook create_embeddings.ipynb
+    python find_close.py "model_name" "word_to_test"
     ```
