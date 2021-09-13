@@ -7,7 +7,7 @@
 ## Встановлення
 1. Створити віртуальне середовище
     ```sh
-    virtualen -p python3 .
+    virtualenv -p python3 .
     source ./bin/activate
     ```
 2. Склонувати проект
